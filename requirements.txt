@@ -1,0 +1,8 @@
+Pandas
+numpy
+matplotlib
+sklearn.linear_model
+sklearn.linear_selection
+sklearn.tree
+sklearn.ensemble
+pickle
