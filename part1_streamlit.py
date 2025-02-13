@@ -15,7 +15,8 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 #如果 sys.path.append(...) 写在 import 之后，Python 还是找不到 src，所以一定要在 import 之前添加路径。
 from src.model_select import data_preparation, Linear_regression_prediction, decision_tree_prediction, Random_Forest_prediction, pickle_model
 
-file_path = r"C:\algonquin\2025W\2216_ML\2216_project\2216_project-part1\data\cleaned_df.csv"
+#file_path = r"C:\algonquin\2025W\2216_ML\2216_project\2216_project-part1\data\cleaned_df.csv"
+file_path = "https://raw.githubusercontent.com/chen041081733/2216-project-part1/main/data/cleaned_df.csv"
 
 x_train, x_test, y_train, y_test = data_preparation(file_path)
 
