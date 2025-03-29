@@ -34,7 +34,7 @@ except Exception as e:
 
 
 # input form
-st.subheader("please input info of house")
+st.subheader("House Price Prediction")
 
 # create input 
 year_sold = st.number_input("Year_Sold", min_value=1900, max_value=2025, step=1)
