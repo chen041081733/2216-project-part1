@@ -44,3 +44,7 @@ streamlit run part1_streamlit.py
 
 Thank you for using the Real Estate Price Prediction App! Feel free to share your feedback.
 
+Streamlit link:
+https://2216-project-part1-9kwzkprgtrc26y9gdp66kn.streamlit.app/
+
+
